@@ -57,7 +57,7 @@ class Animal():
     def __init__(self, name):
         self.name = name
     
-    def falar(self):
+    def speak(self):
         raise NotImplementedError("A subclasse deve implementar esse método abstrato")
         # Espera que a subclasse herde e susbtitua o método abstrato
 

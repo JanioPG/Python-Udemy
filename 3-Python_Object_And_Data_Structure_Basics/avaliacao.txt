@@ -1,0 +1,61 @@
+1)
+Numbers: Em Python posso lembrar os mais comumente usados, pelo menos por mim,
+os números inteiros e de ponto flutuante (com casas decimais).
+Store numerical information and come in two forms:
+INTEGERS -  whole numbers
+FLOATING POINT -  numbers with a deicmal
+
+Strings: Uma cadeia de caracteres. Fica entre aspas simples ou duplas. Posso assimilar também a uma variável composta. Pode ser fatiada e indexada.
+Ordered sequence of characters
+
+Lists: É uma sequencia ordenada que pode conter vários tipos de objetos, como um número inteiro, de ponto flutuante, uma string, inclusive uma lista, dicionário e tuplas. Assim como outras estruturas de dados do Python, as listas suportam aninhamento. É mutável. Pode ser fatiada e indexada.
+Ordered sequence of objects(mutable)
+
+Tuples: Similar a uma lista, porém com grande diferença de ser imutável, ou seja, depois de criada, não pode ser alterada/receber novos objetos.
+Ordered sequence of objects (immutable)
+
+Dictionaries: São mapeamentos nao ordenados para armazenar objetos. Faz uso do emparelhamento key-value (chave-valor). Permite acessar um valor/objeto através da chave, dispensando a necessidade de um índice.
+Key-value pairing that is unordered
+
+2) Answer these 3 questions without typing code. Then type code to check your answer.
+What is the value of the expression 4 * (6 + 5) # R: 44
+
+What is the value of the expression 4 * 6 + 5 # R: 29
+
+What is the value of the expression 4 + 6 * 5 # R: 34
+
+3) What is the type of the result of the expression 3 + 1.5 + 4?
+R: É da classe float, ou seja, número de ponto flutuante.
+
+4) What would you use to find a number’s square root, as well as its square?
+R:  square root -> n ** (1/2), math.sqrt(n)
+    square: n ** 2, pow(n, 2)
+
+12) Can you sort a dictionary? Why or why not?
+R: Não, porque os dicionarios são mapeamentos não ordenados, nao uma sequencia.
+   No! Because normal dictionaries are mappings not a sequence.
+
+13) What is the major difference between tuples and lists?
+R: Diria que, uma lista é mutável, porém uma tupla é imutável.
+
+    How do you create a tuple?
+R: Com parenteses. tupla = () ou tupla = tuple()
+
+What is unique about a set? R: They don't allow for duplicate items!
+
+15) What will be the resulting Boolean of the following pieces of code (answer first then check by typing it in!)
+2 > 3  : False
+3 <= 2  : False
+3 == 2.0  : False
+3.0 == 3  : True
+4**0.5 != 2  : False
+
+16) Final Question: What is the boolean output of the cell block below?
+# two nested lists
+l_one = [1,2,[3,4]]
+l_two = [1,2,{'k1':4}]
+
+# True or False?
+l_one[2][0] >= l_two[2]['k1']
+
+R: 3 >= 4 False
