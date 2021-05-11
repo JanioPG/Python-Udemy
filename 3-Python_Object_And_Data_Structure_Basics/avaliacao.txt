@@ -8,13 +8,15 @@ FLOATING POINT -  numbers with a deicmal
 Strings: Uma cadeia de caracteres. Fica entre aspas simples ou duplas. Posso assimilar também a uma variável composta. Pode ser fatiada e indexada.
 Ordered sequence of characters
 
-Lists: É uma sequencia ordenada que pode conter vários tipos de objetos, como um número inteiro, de ponto flutuante, uma string, inclusive uma lista, dicionário e tuplas. Assim como outras estruturas de dados do Python, as listas suportam aninhamento. É mutável. Pode ser fatiada e indexada.
+Lists: É uma sequencia ordenada que pode conter vários tipos de objetos, como um número inteiro, de ponto flutuante, uma string, inclusive uma lista,
+dicionário e tuplas. Assim como outras estruturas de dados do Python, as listas suportam aninhamento. É mutável. Pode ser fatiada e indexada.
 Ordered sequence of objects(mutable)
 
 Tuples: Similar a uma lista, porém com grande diferença de ser imutável, ou seja, depois de criada, não pode ser alterada/receber novos objetos.
 Ordered sequence of objects (immutable)
 
-Dictionaries: São mapeamentos nao ordenados para armazenar objetos. Faz uso do emparelhamento key-value (chave-valor). Permite acessar um valor/objeto através da chave, dispensando a necessidade de um índice.
+Dictionaries: São mapeamentos nao ordenados para armazenar objetos. Faz uso do emparelhamento key-value (chave-valor).
+Permite acessar um valor/objeto através da chave, dispensando a necessidade de um índice.
 Key-value pairing that is unordered
 
 2) Answer these 3 questions without typing code. Then type code to check your answer.
