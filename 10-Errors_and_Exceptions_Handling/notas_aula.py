@@ -29,7 +29,9 @@ else:
         print(val)'''
 
 
-# 'Finally, I executed' ou o bloco finally é executado mesmo qunado há exceção e em seguida continue e também quando é executado else e break. Isso ocorre porque com uma cláusula try / except / finally, quaisquer instruções continue ou break são reservadas até depois que a cláusula try for concluída. A cláusula try é finalizada em finally, como 'print(val)' está fora da cláusula try, a instrução break impede sua exceução.
+# 'Finally, I executed' ou o bloco finally é executado mesmo qunado há exceção e, em seguida, continue. Também quando é executado else e break.
+# Isso ocorre porque com uma cláusula try / except / finally, quaisquer instruções continue ou break são reservadas até depois que a cláusula try for concluída.
+# A cláusula try é finalizada em finally, como 'print(val)' está fora da cláusula try, a instrução break impede sua exceução.
 
 # Ajuste
 def askint():
