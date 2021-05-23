@@ -88,7 +88,6 @@ while new_game:
             # empate
             ExibirCartas().exibir_tudo(mao_dealer.cartas, jogador.hand.cartas)
             if operacao.verificar_empate(mao_dealer.pontos, jogador.hand.pontos):
-                
                 mensagem.msg_empate()
 
             # vencedor
@@ -98,6 +97,7 @@ while new_game:
             else:
                 jogador.ficha.perdeu(aposta_jogador)
                 mensagem.msg_perdeu(jogador.name)
+                
     print(f"\nPontos do dealer: {mao_dealer.pontos} \nPontos do {jogador.name}: {jogador.hand.pontos}\n")
 
     if jogador.ficha.total == 0:

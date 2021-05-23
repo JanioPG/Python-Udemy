@@ -120,8 +120,4 @@ class Operation:
                 return aposta
             else:
                 print(f'Aposta acima do número de fichas disponíveis. Suas fichas: {total_fichas}')
-                continue
-
-
-
-        
+                continue 

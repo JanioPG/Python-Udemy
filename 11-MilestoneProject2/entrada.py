@@ -51,4 +51,4 @@ class Entrada:
                 return resp
 
     def __str__(self):
-        return f'Pergunta: {self.question}\nResposta exigida:  {self.args}'
+        return f"Pergunta: {self.question}\nResposta exigida:  {self.args}"
