@@ -32,6 +32,7 @@ while new_game:
     mao_dealer = Hand()
     jogador.hand.cartas.clear()
     jogador.hand.pontos = 0
+    jogador.hand.num_carta_as = 0
 
     for x in range(4):
         if x < 2:
