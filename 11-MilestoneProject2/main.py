@@ -4,20 +4,25 @@ from objetos_jogo import User, Baralho, Hand, Operation
 
 
 new_game = True
-jogador = User()
 mensagem = Mensagens()
 mesmo_jogador = False
 
 limpar_terminal()
-if not mesmo_jogador:
-    # Boas-vindas
-    mensagem.boas_vindas()
-    jogador.identificar()
-    limpar_terminal()
-    print(f"Bem-vindo, {jogador.name}!")
-    print(f'Você ganhou {jogador.ficha.total} fichas para jogar.')
 
 while new_game:
+    if not mesmo_jogador:
+        # Boas-vindas
+        mensagem.boas_vindas()
+        jogador = User()
+        jogador.identificar()
+        limpar_terminal()
+        print(f"Bem-vindo, {jogador.name}!")
+        print(f'Você ganhou {jogador.ficha.total} fichas para jogar.')
+    else:
+        # Para novo jogo: Limpar cartas, pontos e numero de carta Ás da mao do jogador. 
+        jogador.hand.cartas.clear()
+        jogador.hand.pontos = 0
+        jogador.hand.num_carta_as = 0
 
     # Solicitar aposta do jogador
     operacao = Operation()
@@ -30,9 +35,6 @@ while new_game:
 
     # Distribuir duas cartas para cada jogador
     mao_dealer = Hand()
-    jogador.hand.cartas.clear()
-    jogador.hand.pontos = 0
-    jogador.hand.num_carta_as = 0
 
     for x in range(4):
         if x < 2:
